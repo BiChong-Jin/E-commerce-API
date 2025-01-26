@@ -34,3 +34,22 @@ A simple e-commerce backend built with **Kotlin**, **Spring Boot**, and **H2 Dat
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/simple-ecommerce-backend.git
+
+### Test endpoints
+1. Get all products
+   ```bash
+   GET /api/products
+2. Get a product by ID
+   ``` bash
+   GET /api/products/{id}
+3. Create a product
+   ```bash
+   curl -X POST http://localhost:8080/api/products \
+    -H "Content-Type: application/json" \
+    -d '{"name": "Tablet", "price": 299.99, "description": "A lightweight tablet"}'
+4. Update a product
+   ```bash
+   PUT /api/products/{id}
+5. Delete a product
+   ```bash
+   DELETE /api/products/{id}
