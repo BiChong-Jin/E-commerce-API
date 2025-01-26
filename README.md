@@ -35,6 +35,12 @@ A simple e-commerce backend built with **Kotlin**, **Spring Boot**, and **H2 Dat
    ```bash
    git clone https://github.com/your-username/simple-ecommerce-backend.git
 
+### Run the application
+1. Direct into the root directory
+2. run `gradle wrapper`
+3. run `./gradlew build`
+4. run `./gradlew bootRun`
+
 ### Test endpoints
 1. Get all products
    ```bash
